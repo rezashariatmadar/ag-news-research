@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.cache/
+*.tmp
+
+# Exclude INTERMEDIATE feature files (can be regenerated)
+features/train_embeddings_*.npy
+features/val_embeddings_*.npy
+features/train_doc_features.csv
+features/val_doc_features.csv
+features/pipeline_comparison_results.csv
+
+# Keep these essentials:
+# - data/*.csv (small)
+# - models/*.pkl (LFS tracked)
+# - results/*.png (visualizations)
+# - results/*.pkl (important results)
+# - features/*.npz (hybrid features - LFS tracked)

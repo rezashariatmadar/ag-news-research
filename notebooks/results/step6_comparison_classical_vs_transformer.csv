@@ -1,0 +1,4 @@
+Model,Test Macro-F1,Model Size (MB),Inference Time (ms/doc)
+LinearSVC (Classical),0.9274,50,5
+Stacking Ensemble (Classical),0.9295,100,10
+DistilBERT (Transformer),0.9422781867677011,250,100
